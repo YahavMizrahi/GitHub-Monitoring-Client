@@ -1,6 +1,5 @@
-// import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { server, screenshot_api } from "../../utils/api";
+import { server } from "../../utils/api";
 import classes from "./PullReqTable.module.css";
 
 const PullReqTable = () => {
@@ -22,17 +21,6 @@ const PullReqTable = () => {
       .catch((err) => {
         console.log(err);
       });
-    // const arr = Object.values(res.data[id]["pull-requests"]).map(
-    //   async (p) => {
-    //     const img = await getImgPull(p.pull_html_url);
-    //     return { ...p, img_pull_url: img };
-    //     // setPullRequestList((prev) => [...prev, { ...p, img_pull_url: img }]);
-    //   }
-    // );
-    // Promise.all(arr).then((data) => {
-    //   setPullRequestList(data);
-    // });
-    // };
   };
 
   const statusClass = (action) => {
