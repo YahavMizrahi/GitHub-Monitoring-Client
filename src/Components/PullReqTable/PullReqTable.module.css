@@ -1,0 +1,85 @@
+
+/* .container{
+  width: auto;
+  /* margin:0 25%; */
+      /* background-color: rgba(255, 255, 255, 0.452); */
+      /* padding:10vh; */
+      /* padding-top:3vh; */
+
+/* } */ 
+
+.repoLink{
+  color: rgb(0, 0, 150);
+  font-weight:900;
+}
+.repoLink:hover{
+  border-bottom:solid 3px darkblue;
+
+}
+
+button{
+  box-shadow:0 8px 16px 0 rgba(30, 0, 202, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: rgba(0, 0, 139);
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 10vw;
+  min-width: 200px;
+}
+button:hover{
+  background-color: white;
+  color: darkblue;
+  border-color: rgba(0, 0, 139);
+  cursor: pointer;
+}
+.table{
+  text-align: center;
+  border: 1px solid black;
+    box-shadow:0 8px 16px 0 rgba(0, 0, 0, 0.404), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* background-color: rgba(0, 0, 0, 0.671); */
+    color:black;
+    font-size:16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+
+}
+
+.table, th, td{
+  padding:3px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+
+.red{
+  color: red;
+}
+.green{color:green}
+
+th{
+  background-color: rgba(0, 0, 139);
+  /* rgba(173, 216, 230, 0.644); */
+  color:white ;
+  padding:30px;
+}
+th{
+  padding:5px;
+}
+
+
+a {
+  text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+tr:hover{
+  background-color: rgba(169, 169, 169, 0.37);
+}
+
+.linktd:hover{
+  background-color: rgba(88, 88, 88, 0.336);
+  color: aliceblue;
+  cursor: pointer;
+}
